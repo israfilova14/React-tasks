@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+    padding: 10px;
+    color:#45B39D
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.productCard {
+    background-color: #F7F9F9;
+    border: 1px solid #E5E7E9;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.productImage{
+    width: 180px;
+    height: 180px;
+}
+
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+    gap: 6px;
+    height: auto;
+}
+
+.elementTitle{
+    width: 300px;
+}
+
+.deleteButton,
+.addButton{
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+}
+ 
+.deleteButton{
+    background-color: #CD6155;
+    width: 100%;
+}
+
+.addButton{
+    background-color: #229954;
+    padding: 5px 30px;
+    padding: 6px 30px;
+}
+
+.formBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    
+}
+input{
+    background-color: #F7F9F9;
+    width: 800px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border :1px solid #F7F9F9;
+    margin-bottom: 16px;
+}
+ 
+input::placeholder {
+    
+    font-size: 16px;  
+  }
+ 
